@@ -1,0 +1,149 @@
+/* typography */
+
+.ubutnu {
+  font-family:"Ubuntu", sans-serif !important;
+}
+
+.slides h1, 
+.slides .h1 {
+  font-family:'Raleway', serif;
+  font-weight:300;
+}
+
+.slides h3, 
+.slides .h3 {
+  font-family:"Raleway";
+  font-weight:300;
+}
+
+.slides h4, 
+.slides .h4 {
+  font-family:"Raleway";
+  font-weight:300;
+}
+
+.slides h5, 
+.slides .h5 {
+  font-family:"Raleway";
+  font-weight:300;
+}
+
+p {
+  font-family:'Ubuntu', sans-serif;
+}
+
+/* buttons */
+
+.button {
+  font-family:"Raleway";
+  font-weight:300;
+}
+
+/* forms */
+
+form input[type="text"],
+form input[type="name"],
+form input[type="email"],
+form input[type="password"],
+form textarea {
+  font-family:"Ubuntu", sans-serif;
+}
+
+/* colors */
+
+.jioGreen { 
+	background-color: #5ad3c0 !important; 
+	color: #fff !important; 
+	} 
+
+.button.jioGreen svg { 
+	fill: #5ad3c0 !important;
+}
+
+.textJioGreen { 
+	color: #5ad3c0 !important;
+}
+
+/* side */
+
+/* tooltitps for titles */
+.navigation li.tooltip:before {
+  font-family:"Ubuntu", sans-serif;
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
