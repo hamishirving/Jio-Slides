@@ -33,6 +33,14 @@ p {
   font-family:'Ubuntu', sans-serif;
 }
 
+p.small {
+  font-size: 20px;
+}
+
+.price {
+  margin-bottom: 0;
+}
+
 /* buttons */
 
 .button {
