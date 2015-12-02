@@ -41,6 +41,19 @@ p.small {
   margin-bottom: 0;
 }
 
+ul.bulleted {
+  opacity: 0.8;
+}
+
+ul li.bullet {
+  font-size: 20px;
+  font-family: "Ubuntu";
+  list-style: circle;
+  margin-bottom: 20px;
+  line-height: 1.2272727273;
+  margin-left: 18px;
+}
+
 /* buttons */
 
 .button {
