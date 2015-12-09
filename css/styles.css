@@ -98,6 +98,13 @@ form textarea {
   margin-left: 10px;
 }
 
+.sidebar .button {
+  margin-bottom: 10px;
+}
+
+.sidebar .logo {
+  margin-bottom: 20px;
+}
 /* side */
 
 /* tooltitps for titles */
