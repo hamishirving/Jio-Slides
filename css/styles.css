@@ -86,6 +86,18 @@ form textarea {
 	color: #5ad3c0 !important;
 }
 
+.shiftImage {
+  margin-top: -100%;
+}
+
+.sections > div {
+  width: 50%;
+}
+
+.panel .button {
+  margin-left: 10px;
+}
+
 /* side */
 
 /* tooltitps for titles */
